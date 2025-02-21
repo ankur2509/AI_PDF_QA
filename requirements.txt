@@ -1,0 +1,8 @@
+streamlit
+mysql-connector-python
+pymysql
+PyPDF2
+langchain
+sentence-transformers
+scipy
+
