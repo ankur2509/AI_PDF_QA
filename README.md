@@ -36,6 +36,15 @@ CREATE TABLE embeddings (
     embedding TEXT
     );_
 
+# ➤ Update database credentials in pdf_app.py if needed:
+###  _def connect_db():
+###    return mysql.connector.connect(
+  ###      host="your_mysql_host",
+###         user="your_mysql_user",
+###         password="your_mysql_password",
+###         database="ai_db"
+  ###   )_
+  
 ### 4️⃣ Run the Application
 _➤ streamlit run pdf_app.py_
 
