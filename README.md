@@ -28,15 +28,15 @@ _➤ pip install -r requirements.txt_
 ### 3️⃣ Set Up MySQL Database
 ➤ Open MySQL and create a database + table:
 
-_CREATE DATABASE ai_db;
-USE ai_db;
-CREATE TABLE embeddings (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    text TEXT,
-    embedding TEXT
-    );_
+### _CREATE DATABASE ai_db;
+### USE ai_db;
+### CREATE TABLE embeddings (
+###     id INT AUTO_INCREMENT PRIMARY KEY,
+###     text TEXT,
+###     embedding TEXT
+###     );_
 
-# ➤ Update database credentials in pdf_app.py if needed:
+### ➤ Update database credentials in pdf_app.py if needed:
 ###  _def connect_db():
 ###    return mysql.connector.connect(
   ###      host="your_mysql_host",
