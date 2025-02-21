@@ -48,7 +48,9 @@ _CREATE DATABASE ai_db;
 ### 4️⃣ Run the Application
 _➤ streamlit run pdf_app.py_
 
-##📌 Features
+---
+
+## 📌 Features
 
 ✅ Upload and process PDF files
 ✅ Store extracted text embeddings in MySQL
