@@ -18,46 +18,30 @@ This is an AI-powered application that allows users to:
 ## 🛠 Setup Instructions  
 
 ### 1️⃣ Clone the Repository  
-#bash
-_**git clone https://github.com/ankur2509/AI_PDF_QA.git**
-**cd AI_PDF_QA**_
 
-2️⃣ Install Dependencies
-_**->pip install -r requirements.txt**_
+_➤ git clone https://github.com/ankur2509/AI_PDF_QA.git_
+_➤ cd AI_PDF_QA_
 
-3️⃣ Set Up MySQL Database
+### 2️⃣ Install Dependencies
+_➤ pip install -r requirements.txt_
 
-**_Open MySQL and create a database + table:_**
-->sql
+### 3️⃣ Set Up MySQL Database
+➤ Open MySQL and create a database + table:
 
-_**CREATE DATABASE ai_db;**_
-_**USE ai_db;**_
+_CREATE DATABASE ai_db;
+USE ai_db;
+CREATE TABLE embeddings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    text TEXT,
+    embedding TEXT
+    );_
 
-_**CREATE TABLE embeddings (**_
-  _ **id INT AUTO_INCREMENT PRIMARY KEY,**_
-  _ **text TEXT,**_
-  _  **embedding TEXT**_
-_**);**_
+### 4️⃣ Run the Application
+_➤ streamlit run pdf_app.py_
 
-->Update database credentials in pdf_app.py if needed:
-#python
+##📌 Features
 
-_**def connect_db():_
-    _return mysql.connector.connect(_
-       _ host="your_mysql_host",_
-        _user="your_mysql_user",_
-        _password="your_mysql_password",_
-      _  database="ai_db"_
-_    )**_
-    
-4️⃣ Run the Application
-_**->streamlit run pdf_app.py**_
-
-📌 Features
-->Upload and process PDF files
-->Store extracted text embeddings in MySQL
-->Retrieve the most relevant answers using vector search
-
-
-
+✅ Upload and process PDF files
+✅ Store extracted text embeddings in MySQL
+✅ Retrieve the most relevant answers using vector search
 
