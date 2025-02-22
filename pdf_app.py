@@ -1,5 +1,5 @@
 import streamlit as st
-import mysql.connector
+import pymysql
 import PyPDF2
 import ast
 from scipy.spatial.distance import cosine
@@ -7,7 +7,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 
 # Function to connect to the database
 def connect_db():
-    conn = mysql.connector.connect(
+    conn = pymysql.connect(
         host="localhost",
         user="root",
         password="Anshu@123",
