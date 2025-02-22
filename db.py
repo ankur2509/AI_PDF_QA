@@ -1,10 +1,10 @@
-import mysql.connector
+import pymysql
 
 # Connect to MySQL
-conn = mysql.connector.connect(
+conn = pymysql.connect(
     host="localhost",
     user="root",
-    password="your_password",
+    password="Anshu@123",
     database="ai_db"
 )
 cur = conn.cursor()
