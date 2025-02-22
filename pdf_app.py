@@ -11,8 +11,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
-# venv\Scripts\activate
-# streamlit run pdf_app.py
+# venv\Scripts\activate #for virtual env.
+# streamlit run pdf_app.py #for running it locally
 
 
 # Database connection
