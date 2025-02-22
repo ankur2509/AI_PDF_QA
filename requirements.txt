@@ -1,0 +1,9 @@
+streamlit
+mysql-connector-python
+pymysql
+PyPDF2
+langchain
+langchain-huggingface
+sentence-transformers
+scipy
+
