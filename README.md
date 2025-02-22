@@ -38,7 +38,7 @@ _CREATE DATABASE ai_db;
 
 ### ➤ Update database credentials in pdf_app.py if needed:
 ###  _def connect_db():
-###    return mysql.connector.connect(
+###    return pymysql.connect(
   ###      host="your_mysql_host",
 ###         user="your_mysql_user",
 ###         password="your_mysql_password",
